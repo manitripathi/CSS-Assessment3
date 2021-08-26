@@ -1,0 +1,121 @@
+.up{
+    display: inline-block;
+    border: red solid 5px;
+    border-radius: 10px;
+    background-color: white;
+    color:maroon;
+    font-style: italic;
+    font-weight: 900;
+    width: 360px;
+    text-align: center;
+    box-shadow: purple 5px 8px;
+    margin-left: 450px;
+    text-shadow:palevioletred 2px 1px;
+}
+.hr-line{
+    color: white;
+}
+
+.parent{
+    position: relative;
+    justify-content: space-around;
+    border: green solid 5px;
+    color:maroon;
+    text-align: center;
+}
+.box{
+    border: red solid 5px;
+    border-radius: 10px;
+    font-size: 23px;
+    font-weight: 800;
+    background-color: white;
+    box-shadow:purple 5px 8px;
+    text-shadow: purple 2px 1px;
+}
+.b1{
+    position: relative;
+    width:240px;
+    height:250px;
+    margin-bottom: 40px;
+}
+.b2{
+    position: absolute;
+    right:0px;
+    top:0px;
+    width:240px;
+    height:200px;
+    margin-bottom: 40px;
+    padding-top: 45px;
+}
+.b3{
+    position: relative;
+    width:240px;
+    height:250px;
+    margin-bottom: 40px;
+}
+
+.b4{
+    position: absolute;
+    right: 0px;
+    top:260px;
+    width:240px;
+    height:250px;
+    margin-top: 25px;
+}
+.box-fixed{
+    position: fixed;
+    bottom: 0%;
+    right: 30%;
+    left: 35%;
+    width: 400px;
+    height: 60px;
+    background-color: chartreuse;
+    border:5px solid red;
+    border-radius: 1rem;
+    border-bottom: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    color: red;
+    font-size: 20px;
+    box-shadow:purple 5px 8px;
+    font-weight: bold;
+    z-index:35;
+    font-style: italic;
+}
+
+.pblock{
+    display: inline-grid;
+    grid-template-rows:70px;
+    position: fixed;
+    border:purple solid 5px;
+    font-style: italic;
+    position: relative;
+    margin-bottom: 20px;
+}
+.block{
+    border:green solid 5px;
+    text-align: center;
+}
+.block1{
+    background-color: green;
+    width:800px;
+}
+.block2{
+    background-color: yellow;
+    width:400px;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.block3{
+    background-color: yellow;
+    width:400px;
+    grid-row-start: 2;
+    position: absolute;
+    right:0px;
+}
+.block4{
+    background-color: yellow;
+    grid-row-start: 3;
+}
